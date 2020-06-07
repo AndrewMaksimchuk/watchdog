@@ -1,0 +1,24 @@
+{
+  "name": "watchdog",
+  "version": "1.0.0",
+  "description": "Add:\r - ~~node-notifier~~\r - cli-color",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewMaksimchuk/watchdog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewMaksimchuk/watchdog/issues"
+  },
+  "homepage": "https://github.com/AndrewMaksimchuk/watchdog#readme",
+  "dependencies": {
+    "cli-color": "^2.0.0",
+    "node-notifier": "^7.0.1"
+  }
+}

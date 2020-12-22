@@ -19,6 +19,6 @@
   "homepage": "https://github.com/AndrewMaksimchuk/watchdog#readme",
   "dependencies": {
     "cli-color": "^2.0.0",
-    "node-notifier": "^7.0.1"
+    "node-notifier": "^8.0.1"
   }
 }

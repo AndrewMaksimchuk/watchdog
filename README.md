@@ -1,9 +1,14 @@
-Make :
+# watchdog   
 
-- ~~Create "targetFolder" from config file, if not exist~~
-- ~~Create all folders for each types of saved documents, if not exist~~
+This program monitors the folder specified in the configuration file for changes in it and as soon as a new file (files) are added,   
+it will automatically move them according to the file type to a specific address and distribute them in folders according to the file type.   
+All addresses, file types are configured in a special configuration file "config.js".   
 
-Add modules :
+Types of files sorted by the program by folders when they are moved:   
+- jpg   
+- djvu   
+- pdf   
+- txt   
+- zip   
 
-- ~~node-notifier~~
-- ~~cli-color~~
+All other file types will be placed in a folder named "others".   
